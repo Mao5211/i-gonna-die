@@ -4,9 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>我有一个梦想</title>
+  <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+  <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+  <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
 </head>
+
 <body>
-    <h1>hello react, three or four moths later, i will carry and control you ! </h1>
-    <h2>hey man , would you want to join us ?</h2>
+  <div id="box"></div>
 </body>
+<script src="./js/rem.js"></script>
+<script type="text/babel">
+  ReactDOM.render(
+    <div className='content'>
+      <h1>hello react</h1>
+    </div>,
+    document.getElementById('box')
+  )
+</script>
+
 </html>
